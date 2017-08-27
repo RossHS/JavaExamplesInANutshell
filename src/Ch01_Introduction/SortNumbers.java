@@ -20,8 +20,8 @@ public class SortNumbers {
 
     public static void main(String[] args) {
         double[] num = new double[10];
-        for (int i = 0; i <num.length ; i++) {
-            num[i] = Math.random()*100;
+        for (int i = 0; i < num.length; i++) {
+            num[i] = Math.random() * 100;
         }
         sort(num);
         for (int i = 0; i < num.length; i++) {

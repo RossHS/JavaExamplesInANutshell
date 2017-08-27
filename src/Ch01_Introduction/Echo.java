@@ -6,7 +6,7 @@ package Ch01_Introduction;
 public class Echo {
     public static void main(String[] args) {
         String[] str = {"Some", "small", "test"};
-        for (int i = 0; i < str.length ; i++) {
+        for (int i = 0; i < str.length; i++) {
             System.out.print(str[i] + " ");
         }
     }
